@@ -1,27 +1,9 @@
-# NgPwa
+web-push send-notification --endpoint="https://fcm.googleapis.com/fcm/send/fLa35d-jQ_Y:APA91bGzynH94jXxJ3NYNLjfJQ8VnkUYbrBo47HSi2HcsvcSlUd2i0X6guWOZc0dnD0y_b2LvrerkW-nfH4I8Si4CowDUFSNEW9MfhtmJCoOjfgMkQW24wGnLsO1a68CIMhZz812a8RA" --key=BJ4V-N5XkbRR37cYGK86oVY9tsBlaXIcTGRFr-cgjuI1al-xADXNdIynHQuvh-njaTYtWyZudaiaaAYPE2DXOdM --auth=JcNWV0eyf_K70bU67sBHRw --payload="{xyz: 'hi'}" --vapid-subject="http://localhost:8080" --vapid-pubkey=BDW6Ol23rK3SjjfgtQVmkKXsJ9hixYD7V45Z4Z87Hiu-_wtDIsu3g8sF5vYVPKD-GgGU_4cMcm627oGxKl0fLWA --vapid-pvtkey=C9kJ741VltpzSX-DAjyrkD2OYN31gKqC-NOGtg8omIA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+web-push send-notification --endpoint="https://fcm.googleapis.com/fcm/send/fLa35d-jQ_Y:APA91bGzynH94jXxJ3NYNLjfJQ8VnkUYbrBo47HSi2HcsvcSlUd2i0X6guWOZc0dnD0y_b2LvrerkW-nfH4I8Si4CowDUFSNEW9MfhtmJCoOjfgMkQW24wGnLsO1a68CIMhZz812a8RA" --key=BJ4V-N5XkbRR37cYGK86oVY9tsBlaXIcTGRFr-cgjuI1al-xADXNdIynHQuvh-njaTYtWyZudaiaaAYPE2DXOdM --auth=JcNWV0eyf_K70bU67sBHRw --payload="{\"hello\":\"world\"}" --vapid-subject="http://localhost:8080" --vapid-pubkey=BDW6Ol23rK3SjjfgtQVmkKXsJ9hixYD7V45Z4Z87Hiu-_wtDIsu3g8sF5vYVPKD-GgGU_4cMcm627oGxKl0fLWA --vapid-pvtkey=C9kJ741VltpzSX-DAjyrkD2OYN31gKqC-NOGtg8omIA
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+web-push send-notification --endpoint="" --key= --auth= --payload="{\"hello\":\"world\"}" --vapid-subject="http://localhost:8080" --vapid-pubkey= --vapid-pvtkey=
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
